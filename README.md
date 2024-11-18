@@ -2,7 +2,7 @@
 # TextFlow: Hinglish Auto-suggestions
 
 
-This repository contains the work we've done for our NLP project on Hinglish auto-suggestions. The project focuses on using NLP techniques to preprocess Hinglish text and generate accurate Auto-suggestions.  
+This repository contains the work we've done for our NLP project on Hinglish Auto-suggestions. The project focuses on using NLP techniques to preprocess Hinglish text and generate accurate Auto-suggestions.  
 
 
 
