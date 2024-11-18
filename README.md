@@ -1,9 +1,9 @@
 **Team Number:** 16 
-# TextFlow: Hinglish Autosuggestions
+# TextFlow: Hinglish Auto-suggestions
 
 
-Welcome to our repository for the **Hinglish auto-suggestions NLP project**! 
-This repository contains the work we've done for our NLP project on Hinglish auto-suggestions. The project focuses on using NLP techniques to preprocess Hinglish text and generate accurate auto-suggestions.  
+Welcome to our repository for the **Hinglish Auto-suggestions NLP project**! 
+This repository contains the work we've done for our NLP project on Hinglish auto-suggestions. The project focuses on using NLP techniques to preprocess Hinglish text and generate accurate Auto-suggestions.  
 
 
 
