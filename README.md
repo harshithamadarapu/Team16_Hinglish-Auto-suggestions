@@ -9,6 +9,7 @@ This repository contains the work we've done for our NLP project on Hinglish Aut
 ---
 
 ## Dataset Links  
-We’re using the following datasets for training and validation, hosted on Hugging Face:  
+We’re using the following datasets for training and validation, available on Hugging Face:
+
 - [Training Dataset](https://huggingface.co/datasets/DanArnin/Hinglish/viewer/default/train)  
 - [Validation Dataset](https://huggingface.co/datasets/DanArnin/Hinglish/viewer/default/validation)
