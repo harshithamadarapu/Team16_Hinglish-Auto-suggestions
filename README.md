@@ -20,7 +20,7 @@ To ensure high-quality input for our model, we performed the following steps:
 
 1. **Data Cleaning**:  
    - We removed any unnecessary elements such as URLs, special characters, and extra spaces from the dataset.
-   - The cleaned data was saved as cleaned_data.csv  
+   - The cleaned data was saved as `cleaned_data.csv `.
 
 2. **Normalization**:  
    - All text was converted to lowercase to maintain uniformity and avoid case-sensitive variations.
