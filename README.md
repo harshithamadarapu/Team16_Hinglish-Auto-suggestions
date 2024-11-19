@@ -26,11 +26,11 @@ To ensure high-quality input for our model, we performed the following steps:
    - All text was converted to lowercase to maintain uniformity and avoid case-sensitive variations.
    - Saved the normalized data as `normalized_data.csv`.  
 
-3. **Tokenization**:  
+   **Tokenization**:  
    - We tokenized the text by splitting it into individual words, allowing for more detailed analysis and processing.  
    - Saved the tokenized data as `tokenized_data.csv`.  
 
-4. **Word Frequency Analysis**:  
+  **Word Frequency Analysis**:  
    - We analyzed the dataset to identify the most frequently occurring words.
    - Here are the top 10 words along with their counts:
 
@@ -45,10 +45,10 @@ To ensure high-quality input for our model, we performed the following steps:
      - `alarm`: 23,196  
      - `mere`: 20,463  
 
-5. **Unique Word Count**:  
+  **Unique Word Count**:  
    - Total number of unique words in the dataset: **38,356**.  
 
-6. **Visualizations**:  
+ **Visualizations**:  
    - Generated a **Word Cloud** to visualize the most frequent words in the dataset.  
    - Created a bar chart showing the frequencies of the top 20 most common words.
 
