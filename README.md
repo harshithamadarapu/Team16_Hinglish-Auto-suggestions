@@ -27,7 +27,7 @@ To ensure high-quality input for our model, we performed the following steps:
    - Saved the normalized data as `normalized_data.csv`.  
 
 3. **Tokenization**:  
-   - Split the text into individual tokens (words).  
+   - We tokenized the text by splitting it into individual words, allowing for more detailed analysis and processing.  
    - Saved the tokenized data as `tokenized_data.csv`.  
 
 4. **Word Frequency Analysis**:  
