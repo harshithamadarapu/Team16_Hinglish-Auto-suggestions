@@ -29,6 +29,23 @@ To ensure high-quality input for our model, we performed the following steps:
      
 3. **Normalization**: 
    - All text was converted to lowercase to avoid case-sensitive variations.
+  
+## Tokenizing the Dataset
+
+After the preprocessing steps, we tokenized the dataset using the word_tokenize function from NLTK. The tokenization process breaks down each sentence into individual words (tokens). Below are the steps we followed for tokenization:
+
+**Steps:**
+1. **Load the Dataset:** The dataset is loaded from CSV files, containing the phrases column with Hinglish text.
+   
+2. **Clean the Data:** Rows containing non-string values were identified and removed.
+   
+3. **Apply Tokenization:** The word_tokenize function was applied to the clean text.
+   
+4. **Save the Tokenized Data:** The tokenized phrases were saved into new CSV files for further use in training and validation.
+
+   
+
+   
      
 
 
