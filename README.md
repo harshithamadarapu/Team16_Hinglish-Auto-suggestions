@@ -31,7 +31,9 @@ To ensure high-quality input for our model, we performed the following steps:
    - Saved the tokenized data as `tokenized_data.csv`.  
 
 4. **Word Frequency Analysis**:  
-   - Identified the top 10 most common words in the dataset:
+   - We analyzed the dataset to identify the most frequently occurring words.
+   - Here are the top 10 words along with their counts:
+
      - `ke`: 81,318  
      - `liye`: 55,985  
      - `hai`: 55,913  
