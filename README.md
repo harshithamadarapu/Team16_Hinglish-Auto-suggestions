@@ -19,11 +19,11 @@ This repository contains the work we've done for our NLP project on Hinglish Aut
 To ensure high-quality input for our model, we performed the following steps:
 
 1. **Data Cleaning**:  
-   - Removed URLs, special characters, and extra spaces from the dataset.
-   - Saved the cleaned data as `cleaned_data.csv`.  
+   - We removed any unnecessary elements such as URLs, special characters, and extra spaces from the dataset.
+   - The cleaned data was saved as cleaned_data.csv  
 
 2. **Normalization**:  
-   - Converted all text to lowercase for consistency.  
+   - All text was converted to lowercase to maintain uniformity and avoid case-sensitive variations.
    - Saved the normalized data as `normalized_data.csv`.  
 
 3. **Tokenization**:  
