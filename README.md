@@ -30,7 +30,7 @@ To ensure high-quality input for our model, we performed the following steps:
    - We tokenized the text by splitting it into individual words, allowing for more detailed analysis and processing.  
    - Saved the tokenized data as `tokenized_data.csv`.
    - 
-##Data Analysis
+## Data Analysis
 
   **Word Frequency Analysis**:  
    - We analyzed the dataset to identify the most frequently occurring words.
