@@ -1,4 +1,4 @@
-# TextFlow : Hinglish Auto-suggestion
+# TextFlow : Hinglish Auto-suggestions
 
 **Team Number**: 16
 
