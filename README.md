@@ -94,6 +94,11 @@ We aim to improve the suggestion system by exploring more advanced techniques, s
 
 we used distil bert model for training as it is light weight and is one the faster in all bert model. but since the dataset have 1.8L sentences and whereas the unique words are only 38200. because of the ratio between words and sentence is too less.the model is overfitting. we tried to use different parameters still the result is similar.
 
+### Fine tuneing the model(INDIC Bert)
+
+since the main dataset is quitebig so i used a dataset with 25000sentences extracted from main dataset.it has around 19k unique words.
+again since the words are many compared to dataset.the loss is quite big.
+
 ## Requirements
 
 Install the required libraries:
