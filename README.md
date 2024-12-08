@@ -31,6 +31,13 @@ We use the following datasets from Hugging Face:
 
 ---
 
+###About the dataset 
+
+1. **Dataset(Training)**
+   -Training Dataset contains 188525 sentences. the unique words are 38200.
+   -it has one column called "Phrases".
+
+
 ## Exploratory Data Analysis (EDA)
 
 - Analyzed sentence length distribution.
@@ -82,6 +89,10 @@ This limitation makes bigram-based models less effective for more complex langua
 We aim to improve the suggestion system by exploring more advanced techniques, such as neural language models, which can capture more complex relationships and context within the Hinglish language.
 
 ---
+
+### Training using Distill bert
+
+we used distil bert model for training as it is light weight and is one the faster in all bert model. but since the dataset have 1.8L sentences and whereas the unique words are only 38200. because of the ratio between words and sentence is too less.the model is overfitting. we tried to use different parameters still the result is similar.
 
 ## Requirements
 
