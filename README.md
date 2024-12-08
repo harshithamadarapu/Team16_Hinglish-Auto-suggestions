@@ -70,7 +70,8 @@ This limitation makes bigram-based models less effective for more complex langua
    - The Gradio interface is launched, providing real-time interaction for users to test the auto-suggestions.
 
 
-![Gradio Interface Example](images/gradio.jpeg)
+![Gradio Interface](gradio.jpeg)
+
 
 ---
 
