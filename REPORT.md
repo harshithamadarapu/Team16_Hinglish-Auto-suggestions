@@ -12,6 +12,6 @@ As the subset is too big i used a small dataset
 extracted from main dataset.
 it has about 25000 sentenence but is has 19k+words as their are
 more words comparing to sentences. the loss is too big.
-i have updloaded this notebook in the github.
+i have uploaded this notebook in the github.
 
 
