@@ -71,6 +71,7 @@ This limitation makes bigram-based models less effective for more complex langua
 
 
 ![Gradio Interface](gradio.jpeg)
+[![Watch the video](https://img.youtube.com/vi/9Ds56z9EykM/0.jpg)](https://youtu.be/9Ds56z9EykM)
 
 
 ---
