@@ -14,4 +14,6 @@ it has about 25000 sentenence but is has 19k+words as their are
 more words comparing to sentences. the loss is too big.
 i have uploaded this notebook in the github.
 
+6. **WORD EMBEDDINGS AND AS WELL CONTEXT EMBEDDING**: got an idea to make context embeddings 
+
 
