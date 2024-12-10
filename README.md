@@ -108,7 +108,14 @@ again since the words are many compared to dataset.the loss is quite big.
 
 ### Training with LSTM + DISTIL BERT
 
+![image](https://github.com/user-attachments/assets/f7f5e92f-ddf8-483d-8686-df139c93bca6)
 
+
+![results](https://github.com/user-attachments/assets/0a0aad9e-f905-4d91-8d50-c6e084b206f4)
+
+I have incoperated LSTM+DISTILBERT model as LSTM is very good at semantic knowledge and BERT is encode-only model
+
+I wanted to get the best of the both models
 
 ## Requirements
 
