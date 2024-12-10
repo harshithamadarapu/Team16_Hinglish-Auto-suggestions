@@ -52,3 +52,24 @@ this is result of LSTM + DISTIL BERT
   
 
 - **TinyBERT Experimentation**: I also experimented with TinyBERT, a smaller version of BERT, to optimize for faster processing and reduced model size. However, due to GPU limitations in Colab, I wasn’t able to fully run and fine-tune TinyBERT.
+
+---
+
+## SE22UARI081:
+
+---
+
+- **Data Analysis**: I analyzed the Hinglish dataset to understand the structure and distribution of words. I focused on identifying patterns in the dataset that could help improve the auto-suggestions.
+  - [EDA Notebook](#)  (experiments/EDA.ipynb)
+
+- **DistilBERT Model**: I fine-tuned DistilBERT, a lightweight version of BERT, on the Hinglish dataset. This allowed for generating more context-aware suggestions while maintaining faster processing times.
+  - [Fine-Tuning DistilBERT Notebook](#)  (experiments/DistilBERTTraining_Finetuning&Evaluate.ipynb)
+  
+---
+
+- **Multilingual BERT (mBERT) Model**: I fine-tuned mBERT to handle Hinglish text, benefiting from its multilingual capabilities to generate accurate suggestions for code-switched languages.
+  - [Fine-Tuning mBERT with Word2Vec Notebook](#)  (experiments/FineTuningMultiLingualBERTwithWORD2VEC.ipynb)
+
+---
+
+
