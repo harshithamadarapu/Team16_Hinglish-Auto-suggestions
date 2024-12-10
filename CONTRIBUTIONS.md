@@ -8,6 +8,9 @@
 
 - [Distill BERT Training](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/distill%20bert(train)%20.ipynb)
 
+- ![image](https://github.com/user-attachments/assets/9c786577-3f5d-42de-9759-83ad54021c8c)
+this is result of LSTM + DISTIL BERT
+
 1. **Preprocessing the Data**: Using regex, removed all the non-alphabets.
 
 2. **Tokenization**: Tokenized the data using `split()` because, since it is auto-suggestion, I thought every word is important. But when it comes to training with BERT models, I used the model’s tokenizer, and for LSTM, I used normal tokenization.
