@@ -2,7 +2,7 @@
 
 **Team Number**: 16
 
-TextFlow focuses on building an NLP-based auto-suggestion system for Hinglish—a blend of Hindi and English widely used in India. Our goal is to preprocess Hinglish text, analyze it, and train a model for generating context-aware suggestions.
+The goal of this project is to develop a next-word suggestion system specifically for Hinglish, a blend of Hindi and English commonly used in everyday conversations. The challenge lies in creating a model that can accurately predict the next word while handling the unique nature of Hinglish, including code-switching and informal communication.
 
 ---
 
@@ -83,6 +83,51 @@ We implemented a bigram-based approach to generate word suggestions by creating 
 [Watch the video on YouTube](https://youtu.be/9Ds56z9EykM)
 
 ---
+#### **DistilBERT Model:**  
+To improve predictions, I fine-tuned **DistilBERT**, an efficient version of **BERT**, on the Hinglish dataset.  
+- **Benefits**: Enabled context-aware suggestions through advanced transformer-based modeling.
+
+##### **Data Preparation:**  
+- **Tokenizer & Masking**: Used **DistilBertTokenizer** to preprocess sentences, applying a 15% masking probability to create training and validation datasets with a custom `HinglishDataset` class.  
+- **Data Loaders**: Batched datasets using **DataLoader** for efficient training.
+
+##### **Model Training:**  
+- Fine-tuned the **DistilBERT multilingual-cased** model using **masked language modeling (MLM)** on the Hinglish dataset.  
+- Configured **AdamW** optimizer (learning rate: 5e-5) with a linear scheduler and trained for three epochs, reducing loss from **1.77** (epoch 0) to **0.232** (epoch 2).  
+- Utilized GPU when available for faster training.
+  
+![](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0007.jpg)
+
+
+##### **Evaluation and Prediction:**  
+- Created a prediction pipeline using the pipeline API for next-word suggestions.  
+- Users can input Hinglish text, and the model predicts the top five next words with confidence scores.  
+- **Visualization**: Plotted a graph showing the decline in training loss across epochs, indicating model convergence.
+  
+![Training Loss Across Epochs](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0010.jpg)
+### **Results:**
+![](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0011.jpg)
+![](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0008.jpg)
+![](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0009.jpg)
+
+
+#### **Demo:**  
+- The **Bigram** model was integrated with **Gradio**, allowing real-time Hinglish next-word predictions.  
+- In contrast, **DistilBERT** could take inputs directly from the user through the command line, as shown above.
+
+### **Acknowledgements:**  
+Thanks to online resources, YouTube (Google tutorials), **ChatGPT**, and research papers for their valuable support in this project.  
+**Special Thanks**  
+I would like to express my gratitude to **Nidhi Mam** for her invaluable guidance and support throughout this project.
+
+
+
+
+
+
+
+
+
 
 ## Next Steps
 
