@@ -55,21 +55,21 @@ this is result of LSTM + DISTIL BERT
 
 ---
 
+Here is your contribution summary in the requested format:
+
+---
+
 ## SE22UARI081:
 
 ---
 
 - **Data Analysis**: I analyzed the Hinglish dataset to understand the structure and distribution of words. I focused on identifying patterns in the dataset that could help improve the auto-suggestions.
-  - [EDA Notebook](#)  (experiments/EDA.ipynb)
+  - [EDA Notebook]([experiments/EDA.ipynb](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/EDA.ipynb))
 
 - **DistilBERT Model**: I fine-tuned DistilBERT, a lightweight version of BERT, on the Hinglish dataset. This allowed for generating more context-aware suggestions while maintaining faster processing times.
-  - [Fine-Tuning DistilBERT Notebook](#)  (experiments/DistilBERTTraining_Finetuning&Evaluate.ipynb)
-  
----
+  - [Fine-Tuning DistilBERT Notebook]([experiments/DistilBERTTraining_Finetuning&Evaluate.ipynb](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/DistilBERTTraining_Finetuning%26Evaluate.ipynb))
 
 - **Multilingual BERT (mBERT) Model**: I fine-tuned mBERT to handle Hinglish text, benefiting from its multilingual capabilities to generate accurate suggestions for code-switched languages.
-  - [Fine-Tuning mBERT with Word2Vec Notebook](#)  (experiments/FineTuningMultiLingualBERTwithWORD2VEC.ipynb)
+  - [Fine-Tuning mBERT with Word2Vec Notebook]([experiments/FineTuningMultiLingualBERTwithWORD2VEC.ipynb](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/FineTuningMultiLingualBERTwithWORD2VEC.ipynb))
 
 ---
-
-
