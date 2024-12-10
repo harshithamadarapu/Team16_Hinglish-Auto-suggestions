@@ -79,7 +79,15 @@ Here is your contribution summary in the requested format:
   - ![image]([https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0009.jpg](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/Screenshot%202024-12-10%20211218.png))
 
 
-##SE22UARI153
+-----
+
+SE22UARI153
+
+------
+---
+
+
+SE22UARI153
 
 ---
 
@@ -89,6 +97,8 @@ In the Hinglish Next Word Generator group project, my primary contribution was i
 *LSTM model*:https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/LSTMtraining.ipynb
 
 *LSTM model*:https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/hinglish_auto_suggestions/LSTM.ipynb
+Image: ![image](https://github.com/user-attachments/assets/e254bd15-97fb-407a-b9b0-2a6381890639)
+
 
 https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/hinglish_auto_suggestions/hinglish_auto_suggestion_model%20(1).h5
 
