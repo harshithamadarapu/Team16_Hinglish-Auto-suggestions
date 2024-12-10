@@ -5,6 +5,8 @@ https://www.kaggle.com/datasets/bhuvanavijaya/nlp-autosuggestion
 
 https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/FineTuneing(indic%20bert%20).ipynb
 
+https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/distill%20bert(train)%20.ipynb
+
 1.preprocessing the data : using regax removed all the non alphabets.
 
 2.tokenization : tokenized the data using split() because since it is auto suggestion I thought every word is important. But when it comes to training with Bert models I used the model’s tokenizer and for LSTM I used to normal tokenization.
