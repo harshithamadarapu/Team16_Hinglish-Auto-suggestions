@@ -22,7 +22,7 @@ this is result of LSTM + DISTIL BERT
 
 
 
-
+---
 
 ## SE22UARI087:
 
@@ -38,9 +38,9 @@ this is result of LSTM + DISTIL BERT
   **Note**: While bigram models are useful for predicting the next word based on a pair of consecutive words, they have limitations. They struggle to capture long-distance relationships between words and lack the ability to account for broader sentence context, making them less effective for tasks that require deeper understanding.
 
 - **DistilBERT Model**: I fine-tuned DistilBERT, a lighter version of BERT, on the Hinglish dataset. This allowed for generating more context-aware suggestions by leveraging the model’s deeper understanding of language.
-- 
+    - [Fine-Tuning DistilBERT Notebook](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/nextwordusingdistilbert.ipynb)
 - ![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/IMG-20241210-WA0007.jpg)
-  - [Fine-Tuning DistilBERT Notebook](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/nextwordusingdistilbert.ipynb)
+- ![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/IMG-20241210-WA0010.jpg)
   
 
 - **TinyBERT Experimentation**: I also experimented with TinyBERT, a smaller version of BERT, to optimize for faster processing and reduced model size. However, due to GPU limitations in Colab, I wasn’t able to fully run and fine-tune TinyBERT.
