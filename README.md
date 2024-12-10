@@ -103,6 +103,10 @@ we used distil bert model for training as it is light weight and is one the fast
 since the main dataset is quitebig so i used a dataset with 25000sentences extracted from main dataset.it has around 19k unique words.
 again since the words are many compared to dataset.the loss is quite big.
 
+### Training with LSTM + DISTIL BERT
+
+
+
 ## Requirements
 
 Install the required libraries:
