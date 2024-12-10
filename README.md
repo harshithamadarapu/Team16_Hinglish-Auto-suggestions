@@ -130,7 +130,7 @@ Install the required libraries:
 ```bash
 pip install pandas nltk gradio matplotlib seaborn wordcloud scikit-learn transformers datasets
 
-
+```
 
 
 
