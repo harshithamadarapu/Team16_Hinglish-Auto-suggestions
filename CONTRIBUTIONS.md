@@ -79,3 +79,15 @@ Here is your contribution summary in the requested format:
   - ![image]([[https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0010.jpg](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/Screenshot%202024-12-10%20211218.png)](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/5e468eb986d198b2d3ecbedb079fa5023746ad41/images/Screenshot%202024-12-10%20211218.png))
 
 ---
+
+
+##SE22UARI153
+
+---
+
+-My Contribution:
+In the Hinglish Next Word Generator group project, my primary contribution was implementing and training the LSTM-based model for next-word prediction. I developed and tested the preprocessing pipeline,and fine-tuned hyperparameters to optimize its performance. I also prepared the final model and tokenizer files (hinglish_auto_suggestion_model.h5 and tokenizer.json) for deployment. Additionally, I contributed to the project slides and actively collaborated with my teammates, providing support and ideas throughout the project. Although the finalized code was derived from a teammate's implementation, I was closely involved in its development and testing, ensuring a seamless integration of efforts.
+*LSTM model*:https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/LSTMtraining.ipynb
+*LSTM model*:https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/hinglish_auto_suggestions/LSTM.ipynb
+https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/hinglish_auto_suggestions/hinglish_auto_suggestion_model%20(1).h5
+https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/hinglish_auto_suggestions/tokenizer.json
