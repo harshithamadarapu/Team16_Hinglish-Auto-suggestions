@@ -84,6 +84,7 @@ We implemented a bigram-based approach to generate word suggestions by creating 
 
 ---
 ## **DistilBERT Model:**  
+[NextwordPredictionUsingDistilBERT](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/NextwordPredictionUsingDistilBERT.ipynb)
 To improve predictions, I fine-tuned **DistilBERT**, an efficient version of **BERT**, on the Hinglish dataset.  
 - **Benefits**: Enabled context-aware suggestions through advanced transformer-based modeling.
 
