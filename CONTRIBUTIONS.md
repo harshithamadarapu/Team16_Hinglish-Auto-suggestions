@@ -1,20 +1,11 @@
 REPORT ON WHAT EACH TEAM MATE DID.
 
 ## SE22UARI080
-
- 1. **PREPROCESSING:** the data(
- 2.  **TOKENIZATION:** of the data(
- 3. **TRAINING:** with several bert models like distill bert , multilinguial bert,indic bert but all these attempts are failure as it is overfitting because the words are comparitively less compared to no of sentences present
-    
- 4. **FINE TUNING:** tried fine tuneing using indic bert 
-
-5. **USING SMALL DATASET:** using INDIC BERT model
-As the subset is too big i used a small dataset
-extracted from main dataset.
-it has about 25000 sentenence but is has 19k+words as their are
-more words comparing to sentences. the loss is too big.
-i have uploaded this notebook in the github.
-
-8. **WORD EMBEDDINGS AND AS WELL CONTEXT EMBEDDING** context  embeddings using LSTM
+1.preprocessing the data : using regax removed all the non alphabets.
+2.tokenization : tokenized the data using split() because since it is auto suggestion I thought every word is important. But when it comes to training with Bert models I used the model’s tokenizer and for LSTM I used to normal tokenization.
+4.TRAINING AND FINETUNEING THE DATE: eventhough they are failures I experimented with not just these but several models like multilinguial bert too.but the model is too heavy to execute to the end.
+5. WORD EMBEDDINGS AND CONTEXT EMBEDDINGS:
+OneDrive  this links leads to a folder where I uploaded the embeddings.
+Context embeddings are created with LSTM.
 
 
