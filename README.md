@@ -33,7 +33,7 @@ We are using the following datasets from Hugging Face:
 
 ## Dataset Overview
 
-- **Training Dataset**: Contains 188,525 sentences with 38,200 unique words.
+- **Training Dataset**: Contains 1.4L+ sentences with 38,200 unique words.
 - **Structure**: The dataset has a single column, "Phrases," containing Hinglish sentences.
 
 ---
