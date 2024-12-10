@@ -28,7 +28,7 @@ this is result of LSTM + DISTIL BERT
 ## SE22UARI087:
 
 ---
-**Wrote README**
+- **Wrote README**
 
 - **Data Analysis**: I analyzed the Hinglish dataset to understand the structure and distribution of words. I focused on identifying patterns in the dataset that could help improve the auto-suggestions.
   - [NLP Data Analysis Notebook](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/NLP_DataAnalysis.ipynb)
