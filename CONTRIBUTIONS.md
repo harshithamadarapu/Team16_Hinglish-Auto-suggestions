@@ -41,13 +41,13 @@ this is result of LSTM + DISTIL BERT
     - [Fine-Tuning DistilBERT Notebook](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/nextwordusingdistilbert.ipynb)
 ![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0007.jpg)
 ---
+![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0010.jpg)
+---
+![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0011.jpg)
+---
 ![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0008.jpg)
 ---
-![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/IMG-20241210-WA0011.jpg)
----
-![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/IMG-20241210-WA0008.jpg)
----
-![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/IMG-20241210-WA0009.jpg)
+![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0009.jpg)
   
 
 - **TinyBERT Experimentation**: I also experimented with TinyBERT, a smaller version of BERT, to optimize for faster processing and reduced model size. However, due to GPU limitations in Colab, I wasn’t able to fully run and fine-tune TinyBERT.
