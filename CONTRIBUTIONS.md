@@ -53,9 +53,6 @@ this is result of LSTM + DISTIL BERT
 
 - **TinyBERT Experimentation**: I also experimented with TinyBERT, a smaller version of BERT, to optimize for faster processing and reduced model size. However, due to GPU limitations in Colab, I wasn’t able to fully run and fine-tune TinyBERT.
 
----
-
-Here is your contribution summary in the requested format:
 
 ---
 
