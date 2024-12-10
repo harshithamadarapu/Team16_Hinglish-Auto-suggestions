@@ -74,7 +74,8 @@ We implemented a bigram-based approach to generate word suggestions by creating 
 
 5. **Interface Launch**:
    - The Gradio interface is launched for real-time interaction, enabling users to test the auto-suggestions.
-![Using Bigram for Next Word Prediction](Using bigram for next word prediction_gradio.jpeg)
+
+[Using Bigram for Next Word Prediction](images/Using bigram for next word prediction_gradio.jpeg)
 
 
 
