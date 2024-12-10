@@ -115,12 +115,20 @@ To improve predictions, I fine-tuned **DistilBERT**, an efficient version of **B
 - The **Bigram** model was integrated with **Gradio**, allowing real-time Hinglish next-word predictions.  
 - In contrast, **DistilBERT** could take inputs directly from the user through the command line, as shown above.
 
+
+
 ### **Acknowledgements:**  
 Thanks to online resources, YouTube (Google tutorials), **ChatGPT**, and research papers for their valuable support in this project.  
 
 ### **Special Thanks**  
 I would like to express my gratitude to **Nidhi Mam** for her invaluable guidance and support throughout this project.
 
+## Requirements
+
+Install the required libraries:
+
+```bash
+pip install pandas nltk gradio matplotlib seaborn wordcloud scikit-learn transformers datasets
 
 
 
@@ -129,10 +137,6 @@ I would like to express my gratitude to **Nidhi Mam** for her invaluable guidanc
 
 
 
-
-## Next Steps
-
-To enhance the suggestion system, we plan to explore more advanced techniques like neural language models, which can capture deeper relationships and context within Hinglish text.
 
 
 ---
@@ -163,10 +167,4 @@ I have incoperated LSTM+DISTILBERT model as LSTM is very good at semantic knowle
 
 I wanted to get the best of the both models
 
-## Requirements
-
-Install the required libraries:
-
-```bash
-pip install pandas nltk gradio matplotlib seaborn wordcloud scikit-learn
 
