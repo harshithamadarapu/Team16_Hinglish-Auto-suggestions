@@ -23,46 +23,18 @@
 
 ## SE22UARI087:
 
-
-
 ---
 
-- **Data Analysis**: Analyzed the Hinglish dataset to understand the structure and distribution of words. I focused on identifying patterns in the dataset that could help improve the auto-suggestions.
+- **Data Analysis**: I analyzed the Hinglish dataset to understand the structure and distribution of words. I focused on identifying patterns in the dataset that could help improve the auto-suggestions.
   - [NLP Data Analysis Notebook](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/NLP_DataAnalysis.ipynb)
 
-- **Bigram Model**: Implemented a bigram-based approach to predict the next word. This method utilizes pairs of consecutive words to suggest the next word based on the current word.
+- **Bigram Model**: I implemented a bigram-based approach to predict the next word. This method uses pairs of consecutive words to suggest the next word based on the current word.
+  - ![Using Bigram for Next Word Prediction](https://raw.githubusercontent.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/a7b8da4a2ce4088c0ac00eeeac5a0c97da1cc30d/Using%20bigram%20for%20next%20word%20prediction_gradio.jpeg)
+  - [Bigram Model with Gradio Interface](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/bigram_gradio.ipynb)
+  
+  **Note**: While bigram models are useful for predicting the next word based on a pair of consecutive words, they have limitations. They struggle to capture long-distance relationships between words and lack the ability to account for broader sentence context, making them less effective for tasks that require deeper understanding.
 
-- **DistilBERT Model**: Fine-tuned DistilBERT, a lighter version of BERT, on the Hinglish dataset. This helped generate context-aware suggestions by leveraging the model's understanding of language.
+- **DistilBERT Model**: I fine-tuned DistilBERT, a lighter version of BERT, on the Hinglish dataset. This allowed for generating more context-aware suggestions by leveraging the model’s deeper understanding of language.
+  - [Fine-Tuning DistilBERT Notebook](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/nextwordusingdistilbert.ipynb)
 
-- **TinyBERT Experimentation**: Experimented with TinyBERT, a smaller version of BERT, to optimize for faster processing and reduced model size. However, due to GPU limitations in Colab, I was unable to fully run and fine-tune TinyBERT.
-
----
-
-### Code for Bigrams and Fine-Tuning with DistilBERT:
-
-1. **Bigram Prediction**:
-   - Developed a bigram-based model that suggests the next word by utilizing pairs of consecutive words. This approach was implemented to generate predictions based on the cleaned dataset.
-   - **Gradio Interface for Bigram**: Used Gradio to create a live interface for users to input text and receive next-word predictions based on the bigram model.
-   - ![Using Bigram for Next Word Prediction](https://raw.githubusercontent.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/a7b8da4a2ce4088c0ac00eeeac5a0c97da1cc30d/Using%20bigram%20for%20next%20word%20prediction_gradio.jpeg)
-
-2. **Fine-Tuning DistilBERT**:
-   - Fine-tuned DistilBERT on the Hinglish dataset using a masked language model approach. This allowed the model to learn contextual relationships between words and generate better suggestions.
-   - [Fine-Tuning DistilBERT Notebook](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/nextwordusingdistilbert.ipynb)
-
-3. **TinyBERT Experimentation**:
-   - Explored TinyBERT for faster predictions and a smaller model size. Unfortunately, due to GPU constraints in Colab, the full training and fine-tuning process was not completed.
-
----
-
-### Additional Work:
-- Developed a Gradio interface to demonstrate the real-time next-word prediction using the bigram model. This interface allows users to input Hinglish text and receive suggested next words in real-time.
-
----
-
-### Links to Notebooks:
-
-- [NLP Data Analysis](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/NLP_DataAnalysis.ipynb)
-- [Next Word Prediction Using DistilBERT](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/nextwordusingdistilbert.ipynb)
-- [Bigram Model with Gradio Interface](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/bigram_gradio.ipynb)
-
-
+- **TinyBERT Experimentation**: I also experimented with TinyBERT, a smaller version of BERT, to optimize for faster processing and reduced model size. However, due to GPU limitations in Colab, I wasn’t able to fully run and fine-tune TinyBERT.
