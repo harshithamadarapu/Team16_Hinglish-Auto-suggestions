@@ -64,6 +64,7 @@ Here is your contribution summary in the requested format:
 ---
 
 - **Data Analysis**: I analyzed the Hinglish dataset to understand the structure and distribution of words. I focused on identifying patterns in the dataset that could help improve the auto-suggestions.
+- ![image](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/images/IMG-20241210-WA0009.jpg)
   - [EDA Notebook]([[experiments/EDA.ipynb](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/EDA.ipynb)](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/experiments/EDA.ipynb))
 
 - **DistilBERT Model**: I fine-tuned DistilBERT, a lightweight version of BERT, on the Hinglish dataset. This allowed for generating more context-aware suggestions while maintaining faster processing times.
