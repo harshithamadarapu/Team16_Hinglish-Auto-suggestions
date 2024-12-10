@@ -2,7 +2,7 @@
 
 ### SE22UARI080:
 
-- [Hinglish Auto-suggestion Dataset on Kaggle](https://www.kaggle.com/datasets/bhuvanavijaya/nlp-autosuggestion)
+- [Hinglish Auto-suggestion Dataset on Kaggle](https://www.kaggle.com/datasets/bhuvanavijaya/nlp-autosuggestion/code)
 
 - [Fine-tuning with Indic BERT](https://github.com/harshithamadarapu/Team16_Hinglish-Auto-suggestions/blob/main/FineTuneing(indic%20bert%20).ipynb)
 
